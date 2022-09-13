@@ -50,9 +50,7 @@ import org.apache.flink.util.Collector;
  * join any two streams including sensor data and GPS 
  * 
  * using these agrgumments 
- Sever 90
- --topic android-sensor --bootstrap.servers 140.203.155.187:8017,140.203.155.187:8018,140.203.155.187:8019 
- --zookeeper.connect 140.203.155.187:8020 --group.id testgroupid2  --desTopic joinedstreams --WindowSize 2 --WindowType Session --JobName AdaptiveJoin
+
  
  local host
 
