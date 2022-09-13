@@ -1,0 +1,5 @@
+1.flinkkafka example args
+
+
+--topic android-sensor --bootstrap.servers localhost:9092  --zookeeper.connect localhost:2181 --group.id test-consumer-group2 --desTopic joinedstreams
+
