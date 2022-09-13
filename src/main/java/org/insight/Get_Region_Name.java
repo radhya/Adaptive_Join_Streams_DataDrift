@@ -12,6 +12,15 @@ import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.JsonNode;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONObject;
 
+
+/**
+ * 
+ * @author Radhya Sahal
+ * @email radhya.sahal@gmail.com
+ * 2020
+ * This program to find regioin from GPS points 
+ */
+
 public class Get_Region_Name {
 	
 	public static void main(String[] args) {
