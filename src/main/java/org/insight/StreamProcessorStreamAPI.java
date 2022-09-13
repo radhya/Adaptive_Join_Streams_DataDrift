@@ -37,13 +37,18 @@ import org.apache.flink.util.Collector;
 //import org.insight.BeijingTrajectoryFL1_4.UserLocationSchema;
 
  
-/* @ Radhya Sahal
- * This program to subsrcibe data from Kafka and then
+/*
+/**
+ * 
+ * @author Radhya Sahal
+ * @email radhya.sahal@gmail.com
+ *  2020
+  * This program to subsrcibe data from Kafka and then
  * join two streams (sensor data using proximity and GPS ) 
  * 
  * using these agrgumments 
- * --topic android-sensor --bootstrap.servers 140.203.155.187:8017,140.203.155.187:8018,140.203.155.187:8019 
- * --zookeeper.connect 140.203.155.187:8020 --group.id testgroupid
+ * --topic android-sensor --bootstrap.servers localhost:XXXX,localhost:XXXX,localhost:XXXX 
+ * --zookeeper.connect localhost:XXXX --group.id testgroupid
  * Note: the mobile app should registered with use account
  * in case of not, Flink can't map tuples with null account which causes  NullPointerException 
  * 
