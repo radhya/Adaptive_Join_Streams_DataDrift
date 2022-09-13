@@ -43,7 +43,12 @@ import org.apache.flink.table.api.java.StreamTableEnvironment;
 import org.apache.flink.util.Collector;
 //import org.insight.BeijingTrajectoryFL1_4.UserLocationSchema;
 
-/* @ Radhya Sahal
+/* 
+/**
+ * 
+ * @author Radhya Sahal
+ * @email radhya.sahal@gmail.com
+ *  2020
  * This program to subscribe data from Kafka and then
  * join two streams (single sensor data with GPS ) 
  * 
